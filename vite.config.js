@@ -13,7 +13,7 @@ const isDev = env.NODE_ENV;
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/lumieleu/',
+  base: '/',
   plugins: [
     react(),
     viteImagemin({

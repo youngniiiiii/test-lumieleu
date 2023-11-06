@@ -32,7 +32,6 @@ function SelectedProduct() {
   const [productedTotalPrice, setProductedTotalPrice] = useState([]);
   const [reverseIndex, setReverseIndex] = useState([]);
 
-
   const {
     isLoading,
     data: cartData,
@@ -314,11 +313,7 @@ function SelectedProduct() {
         </div>
       </div>
       <div className="ml-[32rem]">
-        <Link
-          to={
-            selectedCartData.length === 0 ? '/lumieleu/cart' : '/lumieleu/order'
-          }
-        >
+        <Link to={selectedCartData.length === 0 ? '/cart' : '/order'}>
           <button
             className={`text-white bg-black
               w-[25rem] h-[3.125rem] mb-[5rem] rounded-md`}

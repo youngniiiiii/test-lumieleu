@@ -189,7 +189,7 @@ function SignUp() {
       toast.success(`반갑습니다 ${name} 님! 회원가입이 완료되었습니다. `, {
         duration: 1000,
       });
-      navigate('/lumieleu/');
+      navigate('/');
     }
   }, [name, navigate, user]);
 

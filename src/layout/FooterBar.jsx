@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 function FooterBar() {
   const location = useLocation();
   switch (location.pathname) {
-    case '/lumieleu/':
+    case '/':
       return null;
 
     default:

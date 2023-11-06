@@ -44,7 +44,7 @@ function Login() {
       toast.success(`${user.username}님 환영합니다.`, {
         duration: 1000,
       });
-      navigate('/lumieleu/');
+      navigate('/');
     }
   }, [user]);
 
@@ -65,7 +65,7 @@ function Login() {
 
   /* 회원가입 페이지 이동 */
   const handleMoveSignUp = () => {
-    navigate('/lumieleu/signup');
+    navigate('/signup');
   };
 
   /* Eye Component 상태에 따른 비밀번호 보이기/보이지 않기 */

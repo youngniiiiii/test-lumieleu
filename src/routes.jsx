@@ -21,7 +21,7 @@ const EditProfile = lazy(() => import('@/pages/EditProfile/EditProfile'));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/lumieleu" element={<RootLayout />}>
+    <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="cart" element={<Cart />} />
       <Route path="order" element={<Order />} />

@@ -7,7 +7,7 @@ function ProductItem({ products, index }) {
 
   return (
     <div style={{ marginTop: isOddIndex ? '144px' : '0' }}>
-      <Link to={`/lumieleu/productdetails/${products.id}`}>
+      <Link to={`/productdetails/${products.id}`}>
         <h3 className="text-[80px]">{`0${index + 1}`}</h3>
         <div className="overflow-hidden">
           <img

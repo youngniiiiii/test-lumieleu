@@ -51,7 +51,7 @@ function IndexPage() {
       </div>
       <div className={`${S.goGallery} ${isMouseMoving ? S.moveUp : ''}`}>
         <Link
-          to="/lumieleu/gallery"
+          to="/gallery"
           className="px-4 py-1 font-serif text-xl rounded-full border-[1px]"
         >
           작품 보러가기

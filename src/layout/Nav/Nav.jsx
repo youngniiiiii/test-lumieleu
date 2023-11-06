@@ -26,11 +26,11 @@ function Nav() {
     toast.success('정상적으로 로그아웃 되었습니다.', { duration: 1000 });
     signOut();
     kakaoLogout();
-    Navigate('/lumieleu/');
+    Navigate('/');
   };
 
   const activeClass = (category) => {
-    if (location.pathname === `/lumieleu/`) {
+    if (location.pathname === `/`) {
       return `${CSS.hoverunderbarWhite}`;
     } else {
       return `${
@@ -50,7 +50,7 @@ function Nav() {
           .map((category) => (
             <li key={category} className="">
               <Link
-                to={`/lumieleu/${category.toLowerCase()}`}
+                to={`/${category.toLowerCase()}`}
                 className={activeClass(category)}
               >
                 {category}

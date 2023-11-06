@@ -7,10 +7,10 @@ function Heading() {
 
   const getSectionClass = (location) => {
     switch (location) {
-      case '/lumieleu/':
+      case '/':
         return [S.textWhite, S.textWhite];
-      case '/lumieleu/login':
-      case '/lumieleu/signup':
+      case '/login':
+      case '/signup':
         return [S.bgBlack, S.bgWhite];
       default:
         return [S.bgWhite, S.bgWhite];
@@ -24,10 +24,7 @@ function Heading() {
   return (
     <div className={S.headingWrapper}>
       <div className={`${S.logoSection} ${logoSectionClass}`}>
-        <Link
-          to="/lumieleu/"
-          className={location.pathname === '/lumieleu/' ? '' : 'font-bold'}
-        >
+        <Link to="/" className={location.pathname === '/' ? '' : 'font-bold'}>
           lumière <br /> de l&#39;aube
         </Link>
       </div>
