@@ -1,4 +1,4 @@
-import about from '../../../public/imgs/about.svg';
+import about from '../../../public/imgs/about.jpg';
 
 export default function About() {
   return (
