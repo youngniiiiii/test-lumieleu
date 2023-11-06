@@ -1,0 +1,38 @@
+.NavWrapper {
+  @apply min-w-[320px] h-[66px] md:min-w-[768px];
+  @apply flex items-center justify-between px-4 mx-auto bg-black;
+}
+
+.underbar {
+  @apply box-border pb-1 border-b-4 border-black;
+}
+
+.hoverunderbar:after {
+  content: '';
+  @apply w-full h-[4px] bg-black;
+  @apply block relative top-[2px];
+  transition: all 0.5s;
+}
+
+.hoverunderbar:after {
+  width: 0%;
+}
+
+.hoverunderbar:hover:after {
+  width: 100%;
+}
+
+.hoverunderbarWhite:after {
+  content: '';
+  @apply w-full h-[4px] bg-white;
+  @apply block relative top-[2px];
+  transition: all 0.5s;
+}
+
+.hoverunderbarWhite:after {
+  width: 0%;
+}
+
+.hoverunderbarWhite:hover:after {
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+.goGallery {
+  @apply w-full h-[20%] bg-gradient-to-t from-black;
+  @apply flex items-center justify-center;
+  color: white;
+  text-align: center;
+  bottom: (-100%);
+  @apply text-center text-white;
+
+  bottom: -100%;
+  opacity: 0;
+
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+.moveUp {
+  transform: translateY(-100%);
+  opacity: 1;
+}

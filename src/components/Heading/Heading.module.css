@@ -1,0 +1,29 @@
+.headingWrapper {
+  @apply w-full h-[66px];
+  @apply flex items-center justify-between;
+  @apply fixed z-20;
+}
+
+.logoSection {
+  @apply w-1/2 py-4 px-9 min-w-[682px] h-full;
+  @apply flex justify-start;
+  @apply text-xs text-center;
+}
+
+.navSection {
+  @apply w-1/2 py-4 px-9 min-w-[592px] h-full;
+  @apply flex justify-end;
+}
+
+.bgBlack {
+  @apply bg-black;
+  @apply text-white;
+}
+
+.bgWhite {
+  @apply bg-white;
+}
+
+.textWhite {
+  @apply text-white;
+}

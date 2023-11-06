@@ -1,0 +1,3 @@
+.selectedImage {
+  @apply w-[5.5625rem] h-[8.4375rem];
+}

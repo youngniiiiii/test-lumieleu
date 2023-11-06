@@ -1,0 +1,4 @@
+.OrderWrapper {
+  @apply flex flex-col justify-center items-center;
+  @apply mx-auto md:min-w-[768px] box-content min-w-[320px] md:h-[calc(100vh)];
+}

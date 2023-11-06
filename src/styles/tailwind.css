@@ -1,0 +1,14 @@
+@import url('tailwindcss/base');
+@import url('tailwindcss/components');
+@import url('tailwindcss/utilities');
+
+@layer utilities {
+  .text-outline-black {
+    /* 텍스트 아웃라인 스타일을 여기에 정의합니다. */
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+}

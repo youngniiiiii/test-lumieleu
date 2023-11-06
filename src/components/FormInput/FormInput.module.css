@@ -1,0 +1,17 @@
+.wrapper {
+  @apply max-w-[53.75rem] mx-auto w-full;
+}
+.label {
+  @apply font-medium w-[7.8125rem]  block flex-shrink-0;
+}
+.input {
+  @apply border w-full px-3 h-[2.8125rem]  block pl-5;
+}
+
+.inputWrapper {
+  @apply flex mb-3 items-center w-full;
+}
+
+.checkbox {
+  @apply mx-2;
+}
